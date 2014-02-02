@@ -5,7 +5,7 @@ module.exports = {
     root: root,
     client: {
       path: root + '/client',
-      port: 3000
+      port: 6007
     },
     db: {
       host: 'ds027789.mongolab.com',
