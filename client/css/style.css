@@ -5,9 +5,9 @@
 }
 
 .banner {
-    width: 200px;
+    width: 1px;
     margin: auto auto;
-    background-color: #CCC;
+    margin-top:20px;
 }
 
 /* Global */
@@ -24,6 +24,7 @@ body {
     position:fixed;
     top:0px;
     left:0px;
+
     width:100%;
     height:auto;
     background-color:#19d0f7;
