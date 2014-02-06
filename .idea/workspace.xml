@@ -20,19 +20,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="9" selection-start="948" selection-end="948" vertical-scroll-proportion="0.4345679">
+            <state line="34" column="0" selection-start="995" selection-end="995" vertical-scroll-proportion="-8.32">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="20" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+            <state line="16" column="20" selection-start="292" selection-end="292" vertical-scroll-proportion="0.59534883">
               <folding />
             </state>
           </provider>
@@ -53,8 +53,8 @@
         <option value="$PROJECT_DIR$/server/config.js" />
         <option value="$PROJECT_DIR$/client/alt.html" />
         <option value="$PROJECT_DIR$/client/css/screen.css" />
-        <option value="$PROJECT_DIR$/client/css/style.css" />
         <option value="$PROJECT_DIR$/client/index.html" />
+        <option value="$PROJECT_DIR$/client/css/style.css" />
       </list>
     </option>
   </component>
@@ -391,16 +391,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/css/style.css">
+    <entry file="file://$PROJECT_DIR$/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+        <state line="34" column="0" selection-start="995" selection-end="995" vertical-scroll-proportion="-8.32">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/index.html">
+    <entry file="file://$PROJECT_DIR$/client/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="9" selection-start="948" selection-end="948" vertical-scroll-proportion="0.4345679">
+        <state line="16" column="20" selection-start="292" selection-end="292" vertical-scroll-proportion="0.59534883">
           <folding />
         </state>
       </provider>
