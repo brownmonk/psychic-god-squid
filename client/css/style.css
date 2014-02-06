@@ -20,6 +20,10 @@
 
 /* Global */
 
+img {
+    max-width: 100%;
+}
+
 body {
     font-family: 'LeagueGothicRegular', sans-serif;
     font-weight: 400;
