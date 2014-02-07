@@ -12,10 +12,7 @@
     <!-- link rel="stylesheet" href="css/grid.css" type="text/css" media="screen" -->
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" >
-    <script>
 
-
-    </script>
 
 </head>
 
@@ -27,18 +24,53 @@
 
     </div>
 
-    <div class="banner">
-        <div>
-            <img src="images/apotheosis.png">
-        </div>
-        <div>
-            <img src="images/entertainment.png">
-        </div>
-    </div>
+    <div class="maincontent">
 
-    <div class="region1">
-        <h1>Hello World</h1>
-    </div>
+        <div class="banner">
+            <span style="float:left;">
+                <canvas id="myCanvas" width="240" height="240" ></canvas>
+            </span>
+            <span>
+                <div >
+                    <img src="images/apo-logo.png">
+                </div>
+            </span>
+        </div>
 
+        <div class="region1">
+            <h1>Hello World</h1>
+        </div>
+
+        <div class="region2">
+            <img src="images/gradiantcorner.png">
+            <img src="images/gradiantcorner.png">
+        </div>
+
+    </div>
+    <script>
+
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        var r, g, b = 0;
+
+        for(var i = 1; i <= 8; i++){
+            for(var j = 1; j <= 8; j++){
+
+                r = (i * 15) + (j *15);
+                g = i * 30;
+                b = j * 30;
+
+
+                ctx.font = "bold 8px sans-serif";
+                ctx.fillStyle = "#" + b.toString(16) + r.toString(16) + g.toString(16);
+                ctx.fillText(r+','+g+','+b , (i-1)*30, (j-1)*30);
+
+                ctx.fillStyle = "#" + r.toString(16) + g.toString(16) + b.toString(16);
+                ctx.fillRect((i-1)*30,(j-1)*30,30,30);
+            }
+        }
+
+
+    </script>
 </body>
 </html>
